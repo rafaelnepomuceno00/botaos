@@ -12,6 +12,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 
 /**
  *
@@ -25,6 +26,8 @@ public class Aula1Controller implements Initializable {
     private Button button;
     @FXML
     private Label aaaa;
+    @FXML
+    private TextField Campodetexto;
     
     @FXML
     private void handleButtonAction(ActionEvent event) {
@@ -41,15 +44,18 @@ public class Aula1Controller implements Initializable {
         // TODO
     }    
 
-    @FXML
+@FXML
     private void Cabess(ActionEvent event) {
         
-        System.out.println("vc clicou no butao 2 ");
+          String t = Campodetexto.getText();
         
+          System.out.println("texto recbedo");
         
-          String m = aaaa.getText();
+   
+        
+        aaaa.setText(t);
 
-                aaaa.setText(m+ "FALEI PRA NAO CLICAR!");
+        
     }
     
 }
