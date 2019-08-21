@@ -26,6 +26,6 @@
             <Font size="50.0" />
          </font>
       </Label>
-      <TextField fx:id="Campodetexto" layoutX="247.0" layoutY="434.0" prefHeight="34.0" prefWidth="167.0" />
+      <TextField fx:id="Campodetexto" layoutX="247.0" layoutY="434.0" prefHeight="34.0" prefWidth="167.0" text="54" />
     </children>
 </AnchorPane>
